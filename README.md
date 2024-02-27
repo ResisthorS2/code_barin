@@ -1,6 +1,7 @@
 # Pekinz-xpress
 
-## Le dossier serge_PC est la version mise à jour et compatible avec le code des profs
+## Le dossier serge_PC est une version compatible avec le code des profs
+## Le dossier serge_PC_Arduino est la version mise à jour et compatible avec le code des profs avec la communication série
 Pour rouler le code, il faut d'abord ouvrir le dossier dans VSCode et ouvrir un nouveau terminal à l'aide du menu Terminal.
 Ensuite, il faut compiler avec la ligne
 ```
