@@ -62,37 +62,42 @@ void loop() {
   if(digitalRead(pinBoutonQ) == LOW)
   {
     while(digitalRead(pinBoutonQ) == LOW);
-    doc["bouton"] = 'Q';
+    doc["bouton"] = "Q";
     serializeJson(doc, Serial);
     Serial.println();
+    //Serial.print("Q");
   }
   else if(digitalRead(pinBoutonW) == LOW)
   {
     while(digitalRead(pinBoutonW) == LOW);
-    doc["bouton"] = 'W';
+    doc["bouton"] = "W";
     serializeJson(doc, Serial);
     Serial.println();
+    //Serial.print("W");
   }
   else if(digitalRead(pinBoutonA) == LOW)
   {
     while(digitalRead(pinBoutonA) == LOW);
-    doc["bouton"] = 'A';
+    doc["bouton"] = "A";
     serializeJson(doc, Serial);
     Serial.println();
+    //Serial.print("A");
   }
   else if(digitalRead(pinBoutonS) == LOW)
   {
     while(digitalRead(pinBoutonS) == LOW);
-    doc["bouton"] = 'S';
+    doc["bouton"] = "S";
     serializeJson(doc, Serial);
     Serial.println();
+    //Serial.print("S");
   }
   else if(digitalRead(pinBoutonD) == LOW)
   {
     while(digitalRead(pinBoutonD) == LOW);
-    doc["bouton"] = 'D';
+    doc["bouton"] = "D";
     serializeJson(doc, Serial);
     Serial.println();
+    //Serial.print("D");
   }
   delay(10);
 
