@@ -6,7 +6,8 @@
 - J'imagine que vous savez déjà ce que font les .h et les .cpp
 - Le fichier resources.qrc permet d'inclure les ressources (images) au jeu
 - Le dossier images_ecole contient des images de test pour le jeu
-## Le guide Qt explique comment télécharger Qt plus rapidement et comment ajouter QSerialPort pour utiliser le port série
+## Le fichier installation-qt est le fichier des profs pour téléchager Qt si vous ne l'avez pas déjà fait
+## Le guide Qt explique comment ajouter QSerialPort pour utiliser le port série
 ## Le dossier Arduino contient le code Arduino que j'utilisais
 ## Le guide Arduino contient des trucs de base sur Arduino
 
